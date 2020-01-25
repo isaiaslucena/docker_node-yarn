@@ -2,7 +2,7 @@
 
 if [[ -f "/FIRST_RUN" ]] ; then
 	rm -rf /FIRST_RUN
-	yarn install
+	npm install
 fi
 
-yarn run dev
+npm run dev
