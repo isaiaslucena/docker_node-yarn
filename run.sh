@@ -5,4 +5,5 @@ if [[ -f "/FIRST_RUN" ]] ; then
 	npm install
 fi
 
+npm install
 npm run dev
